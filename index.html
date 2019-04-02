@@ -1,0 +1,72 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal-Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    
+</head>
+
+<body>
+    <div class="game">
+        <h1 id=header>Crystal-Collector!</h1>
+        <br>
+        <div class=rules>
+            <p>You will be given a random number at the start of the game.<br><br>
+                There are four crystals below. By clicking on a crystal you will add a specific
+                amount of points to your total score.<br><br>
+                You win the game by matching your total score to random number, you lose the game if your total score
+                goes
+                above
+                the random number.<br><br>
+                The value of each crystal is hidden from you untill you click on it.<br><br>
+                Each time when the game starts the game will change the values of each crystal.
+            </p>
+        </div>
+
+        <div class="cpunumber-div">
+            Match this number: <span class="cpuNumber"></span>
+        </div>
+
+        <div class="winLoss">
+            <span class="you-win-lose"> </span>
+            <br> Wins:
+            <span class="wins"> </span>
+            <br> Loses:
+            <span class="losses"> </span>
+        </div>
+
+        <div class="container2">
+            <div class="crystalRed">
+                <img src="assets/images/crystalRed.png" alt="cyrstalRed" style="height: 60px; width: 60px;">
+            </div>
+
+            <div class="crystalBlue">
+                <img src="assets/images/crystalBlue.png" alt="cyrstalBlue" style="height: 60px; width: 60px;">
+            </div>
+
+            <div class="crystalYellow">
+                <img src="assets/images/crystalYellow.png" alt="cyrstalYellow" style="height: 60px; width: 60px;">
+            </div>
+
+            <div class="crystalGreen">
+                <img src="assets/images/crystalGreen.png" alt="cyrstalGreen" style="height: 60px; width: 60px;">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="total-score-div">
+                Total score:
+                <span class="total-score"> </span>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

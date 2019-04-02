@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+.game{
+    width: 100%;
+}
+
+#header {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 6pc;
+}
+.rules{
+    color: green;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+}
+
+.cpuNumber-div{
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+    color: magenta;
+    float: left;
+}
+.winLoss{
+    margin: 20px;
+    padding: 20px;
+    background-color: greenyellow;
+    color: purple;
+    float: left;
+    text-align: right;
+}
+.container2 {
+    width: 55px; 
+}
+.container3 {
+   margin: 10px;
+    width: 100%;
+    float: left;
+}
